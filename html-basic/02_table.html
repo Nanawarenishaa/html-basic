@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table example</title>
+    <style>
+        table{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Student Personal Info</h1>
+    <table 
+    align="center"
+    border="2"
+    width="80%"
+    cellpadding="10"
+    cellspacing="5"
+    bgcolor="#F8F8F8"
+    summary="This table shows the personal and academic information of students.">
+
+    <colgroup>
+        <col bgcolor="#FFFACD">
+        <col bgcolor="#E6FFE6">
+        <col bgcolor="#E6FFE6">
+        <col bgcolor="#FFF0F5">
+        <col bgcolor="#E6F7FF">
+        <col bgcolor="#E6F7FF">
+        <col bgcolor="#FFF8DC">
+        <col bgcolor="#F0FFF0">
+    </colgroup>
+    
+        <thead>
+            <tr bgcolor="#FFDAB9">
+                <th colspan="4">Personal detail</th>
+                <th colspan="3">Acadmic detail</th>
+                <th>Contact</th>
+            </tr>
+            <tr bgcolor="#D8F3DC">
+                <th>Id</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Date of birth</th>
+                <th>Course</th>
+                <th>Year</th>
+                <th>Marks(%)</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                 <td>101</td>
+            <td>Rahul Sharma</td>
+            <td>Male</td>
+            <td>12-05-2005</td>
+            <td>Computer Science</td>
+            <td>1</td>
+            <td>88</td>
+            <td>rahul@mail.com</td>
+            </tr>
+             <tr>
+            <td>102</td>
+            <td>Priya Singh</td>
+            <td>Female</td>
+            <td>23-08-2005</td>
+            <td>Computer Science</td>
+            <td>1</td>
+            <td>92</td>
+            <td>priya@mail.com</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">103</td>
+            <td rowspan="2">Amit Verma</td>
+            <td rowspan="2">Male</td>
+            <td rowspan="2">01-01-2006</td>
+            <td>Computer Science</td>
+            <td>1</td>
+            <td>75</td>
+            <td rowspan="2">amit@mail.com</td>
+        </tr>
+
+        <tr>
+            <td>Mathematics</td>
+            <td>1</td>
+            <td>81</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Sneha Kapoor</td>
+            <td>Female</td>
+            <td>17-11-2005</td>
+            <td rowspan="2">Electronics</td>
+            <td rowspan="2">1</td>
+            <td>90</td>
+            <td>sneha@mail.com</td>
+        </tr>
+
+        <tr>
+            <td>105</td>
+            <td>Vikram Patel</td>
+            <td>Male</td>
+            <td>09-03-2005</td>
+            <td>85</td>
+            <td>vikram@mail.com</td>
+        </tr>
+
+    </tbody>
+    <tfoot bgcolor="#E6E6FA">
+        <tr>
+            <th colspan="2">Total Students</th>
+            <th colspan="2">5</th>
+            <th colspan="2">Average Marks</th>
+            <th colspan="2">85.20</th>
+        </tr>
+
+    </tfoot>
+
+
+
+       
+
+
+    </table>
+    
+</body>
+</html>
